@@ -69,8 +69,11 @@ X_scaled = scaler.fit_transform(X)
 # ------------------------------------------------------------
 
 rf_model = RandomForestClassifier(
-    n_estimators=100,
-    random_state=42
+    n_estimators    = 100,
+    max_depth       = 10,      # ← limits how deep each tree grows
+    min_samples_leaf= 5,       # ← each leaf must cover at least 5 samples
+    min_samples_split= 10,     # ← a node needs 10 samples before it can split
+    random_state    = 42
 )
 
 rf_model.fit(X_scaled, y)
