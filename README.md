@@ -1,8 +1,6 @@
 ## Project Workflow
 
-<p align="center">
-  <img src="Predictive Maintaince Project.png" width="1000">
-</p>
+
 
 This project presents an end-to-end **Predictive Maintenance** pipeline using real-world industrial sensor data and multiple Machine Learning algorithms. The developed system is designed to **detect potential machine failures at an early stage**, enabling proactive maintenance before unexpected breakdowns occur. By continuously analyzing operational sensor measurements, the models can predict machine failure, support early fault detection, reduce unplanned downtime, lower maintenance costs, and improve equipment reliability. Multiple Machine Learning algorithms were trained, optimized, and compared to identify the most accurate and robust model for predictive maintenance applications.
 
@@ -33,3 +31,8 @@ The following Machine Learning models were implemented and compared:
 - Support Vector Machine (SVM)
 
 Each model was evaluated using **Accuracy, Precision, Recall, F1-Score, ROC-AUC,** and **Matthews Correlation Coefficient (MCC)** on both validation and unseen test datasets.
+
+
+<p align="center">
+  <img src="Predictive Maintaince Project.png" width="1000">
+</p>
